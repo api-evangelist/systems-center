@@ -1,8 +1,27 @@
 aid: systems-center
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/systems-center.png
 name: Systems Center
-description: Systems Center is a company surfaced as a portfolio company of battery-ventures and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: 'Systems Center, Inc. was a mainframe and enterprise systems-management
+  software vendor best known for the NetMaster network-management product line. The
+  company was acquired by Sterling Software of Dallas in a 1993 deal (approximately
+  $185M), after which NetMaster was folded into Sterling''s data-communications
+  portfolio and rebranded (Connect:Direct lineage); Sterling Software was itself
+  acquired by Computer Associates in 2000. Systems Center was surfaced as a portfolio
+  company of Battery Ventures and added to the API Evangelist network as a stub. An
+  enrichment pass (2026-07-21) searched for any live website, developer portal, or
+  API surface and found none: the company is defunct with no independent public
+  presence, so no API artifacts apply.'
 url: https://raw.githubusercontent.com/api-evangelist/systems-center/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,14 +29,25 @@ x-backed-by:
 - battery-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Mainframe
+- Systems Management
+- Network Management
+- Enterprise Software
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
